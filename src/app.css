@@ -4,7 +4,7 @@ html {
 }
 body {
     position: relative;
-    background-color: var(--colorPageBackground);
+    background-color: #78A68A; /* Overall Background Color */
     color: var(--colorText);
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
@@ -97,7 +97,7 @@ body > .container {
 }
 
 :root, .vizceral {
-  --colorText: rgb(214, 214, 214);
+  --colorText: rgb(214, 214, 214); /* All text outside of visual */
   --colorTextDisabled: rgb(129, 129, 129);
   --colorNormal: rgb(186, 213, 237);
   --colorWarning: rgb(268, 185, 73);
@@ -206,7 +206,7 @@ body > .container {
 }
 
 .panel-default > .panel-heading {
-  background-color: rgb(87, 87, 87);
+  background-color: rgb(87, 87, 87); /* Notices panel */
   color: var(--colorText);
   border-top-left-radius: 0;
   border-top-right-radius: 0;

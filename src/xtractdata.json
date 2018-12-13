@@ -1,7 +1,8 @@
 {
   "renderer": "global",
   "name": "edge",
-  "nodes": [
+  "nodes": 
+  [
     {
       "renderer": "region",
       "name": "INTERNET",
@@ -10,7 +11,8 @@
       "metadata": {},
       "class": "normal",
       "connections": []
-    },
+    }
+    ,
     {
       "renderer": "region",
       "name": "us-east-1",
@@ -2997,7 +2999,7 @@
             {
               "name": "pitched",
               "metrics": {
-                "danger": 44.784,
+                "danger": 1144.784,
                 "normal": 18983.510000000002
               }
             }
@@ -5729,7 +5731,7 @@
             {
               "name": "conveyorized",
               "metrics": {
-                "danger": 15.376,
+                "danger": 1115.376,
                 "normal": 22666.646
               }
             }
@@ -6956,14 +6958,20 @@
           "metadata": {
             "streaming": 1
           },
+          "images": [
+            {
+                "uuid": "A430CF4-AD77-11E3-914E-00248C62C323",
+                "url": "https://icon2.kisspng.com/20180219/uvq/kisspng-incandescent-light-bulb-lighting-clip-art-creative-bulb-5a8ad7a7475663.8341801415190486152922.jpg"
+            }
+        ],
           "metrics": {
             "warning": 0.9199999999999999,
-            "danger": 1155.14600000000001,
+            "danger": 11155.14600000000001,
             "normal": 21140.684
           },
           "notices": [
             {
-              "title": "CPU usage average at 80%",
+              "title": "CPU usage average at 81%",
               "link": "http://link/to/relevant/thing",
               "severity": 1
             },
